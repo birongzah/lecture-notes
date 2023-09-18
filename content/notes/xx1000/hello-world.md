@@ -151,20 +151,7 @@ flowchart LR
 >"Jangan biarkan hari ini menjadi alasan Anda untuk menunda-nunda. Hari ini adalah kesempatan untuk menjadi lebih baik daripada kemarin."
 
 
-## CONTOH ANIMASI SVG
-
-{{< html >}}
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Rectangle with animation -->
-  <rect x="10" y="10" width="50" height="50" fill="blue">
-    <animate attributeName="width" from="50" to="150" dur="2s" begin="0s" repeatCount="indefinite" />
-    <animate attributeName="height" from="50" to="150" dur="2s" begin="0s" repeatCount="indefinite" />
-    <animate attributeName="fill" values="blue;red;green;blue" dur="4s" begin="0s" repeatCount="indefinite" />
-  </rect>
-</svg>
-{{< /html >}}
-
-## CONTOH SVG LAIN
+## TERIMAKASIH
 {{< html >}}
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Rectangle with gradients -->
@@ -178,7 +165,7 @@ flowchart LR
   <rect x="20" y="20" width="200" height="100" fill="url(#grad1)" stroke="green" stroke-width="3" />
   
   <!-- Text element -->
-  <text x="30" y="160" font-family="Arial" font-size="24" fill="black">Complex SVG</text>
+  <text x="30" y="160" font-family="Arial" font-size="24" fill="black">SELAMAT BERLATIH SALAM OLAHRAGA</text>
   
   <!-- Circle with animation -->
   <circle cx="250" cy="150" r="20" fill="orange">
