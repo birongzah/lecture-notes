@@ -7,67 +7,22 @@ draft: false
 math: true
 url: "0048"
 ---
-# first section
-Selamat datang dalam panduan lengkap pembuatan website! Apakah Anda ingin membuat website pribadi, blog, portfolio, atau bahkan situs web bisnis, panduan ini akan membimbing Anda melalui langkah-langkah esensial yang dibutuhkan.
+# Intro
+Selamat datang di website saya, saya akan meberitahu anda bagaimana kehidupan sehari-hari sebagai bodybuilder, dan juga bagaimana cara menjadi bodybuilder
+## Media Sosial
++ [GitHub](https://birongzah.github.io/lecture-notes/)
++ [Instagram](https://www.Instagram.com)
++ [Twitter](https://www.Twitter.com)
 
-Pembuatan website adalah proses yang kreatif dan memuaskan yang memungkinkan Anda untuk mengekspresikan diri Anda secara online. Dengan kemajuan teknologi, sekarang lebih mudah daripada sebelumnya untuk memulai.
-
-## Diagram Pembuatan web
-<
-<canvas id="myChart" width="400" height="400"></canvas>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-  var ctx = document.getElementById('myChart').getContext('2d');
-  var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: ['Identifikasi Kebutuhan', 'Perencanaan', 'Desain', 'Pengembangan', 'Pengujian', 'Peluncuran'],
-      datasets: [{
-        label: 'Langkah',
-        data: [1, 2, 3, 4, 5, 6],
-        backgroundColor: [
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(75, 192, 192, 0.2)'
-        ],
-        borderColor: [
-          'rgba(75, 192, 192, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(75, 192, 192, 1)'
-        ],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true,
-          stepSize: 1,
-          title: {
-            display: true,
-            text: 'Langkah'
-          }
-        }
-      }
-    }
-  });
-</script>
-
-## Diagram
+## 5 TAHAPAN
 
 {{< mermaid >}}
 flowchart LR
-  B(("Perencanaan"))
-  I[/"Desain"/]
-  P[/"Pengembangan"/]
-  O[/"Pengujian"/]
-  E(("End"))
+  B(("Memulai Program"))
+  I[/"MencukupiNutrisi"/]
+  P[/"LatihanInti"/]
+  O[/"Recovery"/]
+  E(("AchieveGoals"))
   B --> I
   I --> P
   P --> O
@@ -75,10 +30,60 @@ flowchart LR
 {{< /mermaid >}}
 
 ## youtube
-{{< youtube MCVkMmYL-aY>}}
+{{< youtube o9zCgPtsups}}
 ## Image
-![Image Description](https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2023/02/17/3967434348.png)
-## Animation with SVG
+![Image Description](https://images8.alphacoders.com/570/570996.jpg)
+## contoh markdown
+> Ini adalah paragraf kutipan. Ini adalah teks dalam kutipan yang Anda ingin tampilkan.
+## contoh tabel
+| Nutrisi     | Pagi        | Siang       | Malam       |
+|-------------|-------------|-------------|-------------|
+| Creatine    | 5 gram      | -           | 5 gram      |
+| Protein     | 30 gram     | 40 gram     | 30 gram     |
+| BCAA        | -           | 10 gram     | -           |
+
+
+##
+## Berat Badan
+
+Berikut merupakan perkembangan berat badan Saya dari bulan Juni hingga sekarang.
+{{< chart 90 200 >}}
+{
+    type: 'bar',
+    data: {
+        labels: ['Bulan Juni', 'Bulan Juli', 'Bulan Agustus', 'Bulan September'],
+        datasets: [{
+            label: 'Berat Badan 4 Bulan Terakhir',
+            data: [68,69,70,71],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+}
+{{< /chart >}}
+
+## CONTOH ANIMASI SVG
 
 {{< html >}}
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -91,8 +96,7 @@ flowchart LR
 </svg>
 {{< /html >}}
 
-## Complex SVG with Styled Rect
-
+## CONTOH SVG LAIN
 {{< html >}}
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Rectangle with gradients -->
@@ -115,7 +119,7 @@ flowchart LR
 </svg>
 {{< /html >}}
 
-<!-- 
+
 ## table
 no| Tanggal | Kegiatan | Info
 :-: | :- | -: | :-:
@@ -124,7 +128,7 @@ no| Tanggal | Kegiatan | Info
 4 | 16 Aug | Praktikum| [instagram](https://www.instagram.com)
 4 | 31 Aug | UAS | -
 4 | 2 Sep | REMEDIAL | **nothing** 
- -->
+ 
 
 
 {{< toc >}}
