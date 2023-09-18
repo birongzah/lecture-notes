@@ -1,5 +1,5 @@
 ---
-title: "Hello world"
+title: "hello world"
 date: 2023-09-18T07:44:00+07:00
 authors: ['Reinaldo Ulian']
 tags: ['xx1000']
@@ -7,18 +7,16 @@ draft: false
 math: true
 url: "0048"
 ---
-
-# Belajar Membuat Website
-Dalam pelajaran ini, kita akan menjelajahi langkah-langkah esensial dalam membuat website yang menarik dan fungsional. Dari perencanaan hingga peluncuran, Anda akan memahami prosesnya dan mengembangkan keterampilan yang diperlukan untuk menjadi seorang pengembang web yang kompeten.
-
-## Tahapan Pembuatan web
+# first section
+Content of first section.
+## Diagram
 
 {{< mermaid >}}
 flowchart LR
-  B("{Perencanaan}")
-  I[/"Desain"/]
-  P[/"Pengembangan"/]
-  O[/"{Peluncuran}"/]
+  B(("Begin"))
+  I[/"Input"/]
+  P[/"Process"/]
+  O[/"Output"/]
   E(("End"))
   B --> I
   I --> P
@@ -27,51 +25,9 @@ flowchart LR
 {{< /mermaid >}}
 
 ## youtube
-{{< youtube 71a2zeC71gk }}
-
+{{< youtube MCVkMmYL-aY>}}
 ## Image
 ![Image Description](https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2023/02/17/3967434348.png)
-
-{{< toc >}}
-
-## link
-
-- [Google](https://www.google.com/)
-- [GitHub](https://github.com)
-
-## list
-
-+ item
-    - dua
-    - tiga
-
-+ item lain
-+ item lain lagi
-
-<!--  -->
-
-## equation
-
-$$
-\mathbf{M} =
-\left[
-\begin{matrix}
-1 & 2 & 4 & 5 & 5 \newline
-1 & 2 & 4 & 5 & 5 \newline
-1 & 2 & y^2 & z & x \newline
-\end {matrix}
-\right]
-$$
-
-$$
-x_{1,2} = \frac{-b \pm \sqrt{b^2 -4ac}}{2a}
-$$
-
-$$
-\tag{23}
-y = ax^2 + bx +c
-$$
-
 ## Animation with SVG
 
 {{< html >}}
@@ -102,4 +58,56 @@ $$
   <!-- Text element -->
   <text x="30" y="160" font-family="Arial" font-size="24" fill="black">Complex SVG</text>
   
- 
+  <!-- Circle with animation -->
+  <circle cx="250" cy="150" r="20" fill="orange">
+    <animate attributeName="r" from="20" to="50" dur="2s" begin="0s" repeatCount="indefinite" />
+  </circle>
+</svg>
+{{< /html >}}
+
+## table
+no| Tanggal | Kegiatan | Info
+:-: | :- | -: | :-:
+1 | 22 Jun | Latihan | -
+3 | 15 Jul | UTS | $\frac{x}{y}$
+4 | 16 Aug | Praktikum| [instagram](https://www.instagram.com)
+4 | 31 Aug | UAS | -
+4 | 2 Sep | REMEDIAL | **nothing** 
+
+
+{{< toc >}}
+## link
+
+- [Google](https://www.google.com/)
+- [GitHub](https://github.com)
+
+## list
+
++ item
+    - dua
+    - tiga
+
++ item lain
++ item lain lagi
+
+## equation
+
+$$
+\mathbf{M} =
+\left[
+\begin{matrix}
+1 & 2 & 4 & 5 &5 \newline
+1 & 2 & 4 & 5 &5 \newline
+1 & 2 & y^2 & z & x \newline
+\end {matrix}
+\right]
+$$
+
+$$
+x_{1,2} = \frac{-b \pm \sqrt{b^2 -4ac}}{2a}
+$$
+
+$$
+\tag{23}
+y = ax^2 + bx +c
+$$
