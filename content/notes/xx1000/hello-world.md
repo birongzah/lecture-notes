@@ -27,13 +27,12 @@ no| Tanggal | Kegiatan | Info
 
 ## list
 
-- item
++ item
+    - dua
+    - tiga
 
-* dua
-* tiga
-
-- item lain
-- item lain lagi
++ item lain
++ item lain lagi
 
 ## equation
 
