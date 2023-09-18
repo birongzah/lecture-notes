@@ -1,5 +1,5 @@
 ---
-title: "Hello world "
+title: "Hello world"
 date: 2023-09-18T07:44:00+07:00
 authors: ['Reinaldo Ulian']
 tags: ['xx1000']
@@ -15,7 +15,7 @@ Dalam pelajaran ini, kita akan menjelajahi langkah-langkah esensial dalam membua
 
 {{< mermaid >}}
 flowchart LR
-  B(("{Perencanaan}"))
+  B("{Perencanaan}")
   I[/"Desain"/]
   P[/"Pengembangan"/]
   O[/"{Peluncuran}"/]
@@ -27,13 +27,13 @@ flowchart LR
 {{< /mermaid >}}
 
 ## youtube
-{{< youtube 71a2zeC71gk}}
+{{< youtube 71a2zeC71gk }}
+
 ## Image
 ![Image Description](https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2023/02/17/3967434348.png)
 
-
-
 {{< toc >}}
+
 ## link
 
 - [Google](https://www.google.com/)
@@ -47,16 +47,17 @@ flowchart LR
 
 + item lain
 + item lain lagi
-<!--  
--->
+
+<!--  -->
+
 ## equation
 
 $$
 \mathbf{M} =
 \left[
 \begin{matrix}
-1 & 2 & 4 & 5 &5 \newline
-1 & 2 & 4 & 5 &5 \newline
+1 & 2 & 4 & 5 & 5 \newline
+1 & 2 & 4 & 5 & 5 \newline
 1 & 2 & y^2 & z & x \newline
 \end {matrix}
 \right]
@@ -70,6 +71,7 @@ $$
 \tag{23}
 y = ax^2 + bx +c
 $$
+
 ## Animation with SVG
 
 {{< html >}}
@@ -100,18 +102,4 @@ $$
   <!-- Text element -->
   <text x="30" y="160" font-family="Arial" font-size="24" fill="black">Complex SVG</text>
   
-  <!-- Circle with animation -->
-  <circle cx="250" cy="150" r="20" fill="orange">
-    <animate attributeName="r" from="20" to="50" dur="2s" begin="0s" repeatCount="indefinite" />
-  </circle>
-</svg>
-{{< /html >}}
-
-## table
-no| Tanggal | Kegiatan | Info
-:-: | :- | -: | :-:
-1 | 22 Jun | Latihan | -
-3 | 15 Jul | UTS | $\frac{x}{y}$
-4 | 16 Aug | Praktikum| [instagram](https://www.instagram.com)
-4 | 31 Aug | UAS | -
-4 | 2 Sep | REMEDIAL | **nothing** 
+ 
