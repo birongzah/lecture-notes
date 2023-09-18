@@ -1,5 +1,5 @@
 ---
-title: "PEMBUATAN WEB"
+title: "HIDUP SEBAGAI BODYBUILDER"
 date: 2023-09-18T07:44:00+07:00
 authors: ['Reinaldo Ulian']
 tags: ['xx1000']
@@ -8,7 +8,9 @@ math: true
 url: "0048"
 ---
 # Intro
-Selamat datang di website saya, saya akan meberitahu anda bagaimana kehidupan sehari-hari sebagai bodybuilder, dan juga bagaimana cara menjadi bodybuilder
+
+Selamat datang di website saya, saya akan meberitahu anda bagaimana kehidupan sehari-hari sebagai bodybuilder, dan juga bagaimana cara menjadi bodybuilder,
+Bodybuilding adalah kegiatan pembentukan tubuh yang melibatkan hipertropi otot intensif. Dengan melakukan latihan beban dan diet, memakan makanan berprotein tinggi secara rutin dan intensif, seseorang dapat meningkatkan massa otot.
 ## Media Sosial
 + [GitHub](https://birongzah.github.io/lecture-notes/)
 + [Instagram](https://www.Instagram.com)
@@ -30,42 +32,61 @@ flowchart LR
 {{< /mermaid >}}
 
 ## youtube
-{{< youtube o9zCgPtsups}}
+INI CONTOH VIDEO BODYBUILDING
+{{< youtube "o9zCgPtsups" >}}
 ## Image
 ![Image Description](https://images8.alphacoders.com/570/570996.jpg)
-## contoh markdown
-> Ini adalah paragraf kutipan. Ini adalah teks dalam kutipan yang Anda ingin tampilkan.
-## contoh tabel
+Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.
+-Arnold Schwarzenegger
+
+## Berapa Jumlah Protein yang Dibutuhkan?
+
+Jumlah protein yang dibutuhkan setiap orang dapat berbeda, tetapi ada panduan umum yang dapat diikuti. Saat bulking, banyak ahli gizi merekomendasikan asupan protein harian antara 1.6 hingga 2.2 gram protein per kilogram berat badan.
+
+Jika berat badan Anda adalah 68 kilogram, maka Anda dapat menghitung asupan protein yang direkomendasikan sebagai berikut:
+
+\$$
+\text{Asupan Protein Harian} = \text{Berat Badan} (kg) \times \text{Rentang Asupan Protein (g/kg)}
+\$$
+
+\$$
+\text{Asupan Protein Harian} = 68 \, \text{kg} \times (1.6 - 2.2 \, \text{g/kg})
+\$$
+
+Jadi, berdasarkan rentang yang direkomendasikan, Anda sebaiknya mengonsumsi antara 108.8 hingga 149.6 gram protein per hari saat Anda sedang dalam program bulking dengan berat badan 68 kilogram.
+
+Pastikan bahwa asupan protein Anda seimbang dengan nutrisi lainnya dan konsultasikan dengan ahli gizi atau pelatih Anda untuk rekomendasi yang lebih spesifik sesuai dengan tujuan dan kondisi tubuh Anda.
+## Tabel Nutrisi
 | Nutrisi     | Pagi        | Siang       | Malam       |
 |-------------|-------------|-------------|-------------|
 | Creatine    | 5 gram      | -           | 5 gram      |
-| Protein     | 30 gram     | 40 gram     | 30 gram     |
+| Protein     | 40 gram     | 40 gram     | 40 gram     |
 | BCAA        | -           | 10 gram     | -           |
 
-
-##
-## Berat Badan
-
-Berikut merupakan perkembangan berat badan Saya dari bulan Juni hingga sekarang.
+## BERIKUT HASIL PERKEMBANGAN BERAT BADAN SAYA
 {{< chart 90 200 >}}
 {
     type: 'bar',
     data: {
-        labels: ['Bulan Juni', 'Bulan Juli', 'Bulan Agustus', 'Bulan September'],
+        labels: ['BB: APRIL', 'BB MEI', 'BB JUNI', 'BB JULI', 'BB AGUSTUS', 'BB SEPTEMBER'],
         datasets: [{
-            label: 'Berat Badan 4 Bulan Terakhir',
-            data: [68,69,70,71],
+            label: 'Bar Chart',
+            data: [68, 69, 70, 71, 72, 73],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
                 'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)'
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
                 'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)'
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
             ],
             borderWidth: 1
         }]
@@ -82,6 +103,53 @@ Berikut merupakan perkembangan berat badan Saya dari bulan Juni hingga sekarang.
     }
 }
 {{< /chart >}}
+
+## SET LATIHAN
+
+## Keseharian
+Berikut ini merupakan set latihan 
+{{< mermaid >}}
+flowchart LR
+  B--> A & C & D & E & F & G
+  B(("<b>PushDay</b>"))
+  A[/"Bench Press"/]
+  C[/"Incline Press "/]
+  D[/"Cable Fly"/]
+  E[/"Shoulder press"/]
+  F[/"Arnold Press"/]
+  G[/"Pendinginan"/]
+{{< /mermaid >}}
+
+{{< mermaid >}}
+flowchart LR
+  B--> A & C & D 
+  B(("<b>PR </b>"))
+  A[/"Bench MAX"/]
+  C[/"Deadlift"/]
+  D[/"rest"/]
+{{< /mermaid >}}
+
+{{< mermaid >}}
+flowchart LR
+  B--> A & C & D & E
+  B(("<b>Pullday</b>"))
+  A[/"Lat Pulldown"/]
+  C[/"Lateral Raises"/]
+  D[/"Deadlift"/]
+  E[/"Rest"/]
+{{< /mermaid >}}
+
+## MOTIVASI
+>"Setiap latihan adalah langkah menuju versi terbaik diri Anda. Teruslah bergerak dan jangan pernah berhenti."
+
+>"Keberhasilan dalam gym tidak terjadi dalam semalam. Tetap tekun, dan hasil akan datang seiring waktu."
+
+>"Ketika Anda merasa lelah, ingatlah mengapa Anda memulai. Tujuan Anda adalah daya dorong terbesar Anda."
+
+>"Tubuh Anda akan berterima kasih karena Anda memberinya perhatian dan perawatan yang layak. Jadikan gym sebagai tempat pertumbuhan dan perubahan positif."
+
+>"Jangan biarkan hari ini menjadi alasan Anda untuk menunda-nunda. Hari ini adalah kesempatan untuk menjadi lebih baik daripada kemarin."
+
 
 ## CONTOH ANIMASI SVG
 
@@ -119,51 +187,3 @@ Berikut merupakan perkembangan berat badan Saya dari bulan Juni hingga sekarang.
 </svg>
 {{< /html >}}
 
-
-## table
-no| Tanggal | Kegiatan | Info
-:-: | :- | -: | :-:
-1 | 22 Jun | Latihan | -
-3 | 15 Jul | UTS | $\frac{x}{y}$
-4 | 16 Aug | Praktikum| [instagram](https://www.instagram.com)
-4 | 31 Aug | UAS | -
-4 | 2 Sep | REMEDIAL | **nothing** 
- 
-
-
-{{< toc >}}
-## link
-
-- [Google](https://www.google.com/)
-- [GitHub](https://github.com)
-
-## list
-
-+ item
-    - dua
-    - tiga
-
-+ item lain
-+ item lain lagi
-
-## equation
-
-$$
-\mathbf{M} =
-\left[
-\begin{matrix}
-1 & 2 & 4 & 5 &5 \newline
-1 & 2 & 4 & 5 &5 \newline
-1 & 2 & y^2 & z & x \newline
-\end {matrix}
-\right]
-$$
-
-$$
-x_{1,2} = \frac{-b \pm \sqrt{b^2 -4ac}}{2a}
-$$
-
-$$
-\tag{23}
-y = ax^2 + bx +c
-$$
