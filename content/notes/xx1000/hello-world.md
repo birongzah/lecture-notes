@@ -28,12 +28,42 @@ flowchart LR
 {{< youtube MCVkMmYL-aY>}}
 ## Image
 ![Image Description](https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2023/02/17/3967434348.png)
-## svg
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="transparent">
-    <animate attributeName="r" from="40" to="10" dur="2s" begin="0s" repeatCount="indefinite" />
+## Animation with SVG
+
+{{< html >}}
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rectangle with animation -->
+  <rect x="10" y="10" width="50" height="50" fill="blue">
+    <animate attributeName="width" from="50" to="150" dur="2s" begin="0s" repeatCount="indefinite" />
+    <animate attributeName="height" from="50" to="150" dur="2s" begin="0s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="blue;red;green;blue" dur="4s" begin="0s" repeatCount="indefinite" />
+  </rect>
+</svg>
+{{< /html >}}
+
+## Complex SVG with Styled Rect
+
+{{< html >}}
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rectangle with gradients -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="20" y="20" width="200" height="100" fill="url(#grad1)" stroke="green" stroke-width="3" />
+  
+  <!-- Text element -->
+  <text x="30" y="160" font-family="Arial" font-size="24" fill="black">Complex SVG</text>
+  
+  <!-- Circle with animation -->
+  <circle cx="250" cy="150" r="20" fill="orange">
+    <animate attributeName="r" from="20" to="50" dur="2s" begin="0s" repeatCount="indefinite" />
   </circle>
 </svg>
+{{< /html >}}
 
 ## table
 no| Tanggal | Kegiatan | Info
