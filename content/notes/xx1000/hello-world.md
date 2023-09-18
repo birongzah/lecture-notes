@@ -1,5 +1,5 @@
 ---
-title: "hello world"
+title: "PEMBUATAN WEB"
 date: 2023-09-18T07:44:00+07:00
 authors: ['Reinaldo Ulian']
 tags: ['xx1000']
@@ -8,15 +8,18 @@ math: true
 url: "0048"
 ---
 # first section
-Content of first section.
+Selamat datang dalam panduan lengkap pembuatan website! Apakah Anda ingin membuat website pribadi, blog, portfolio, atau bahkan situs web bisnis, panduan ini akan membimbing Anda melalui langkah-langkah esensial yang dibutuhkan.
+
+Pembuatan website adalah proses yang kreatif dan memuaskan yang memungkinkan Anda untuk mengekspresikan diri Anda secara online. Dengan kemajuan teknologi, sekarang lebih mudah daripada sebelumnya untuk memulai.
+
 ## Diagram
 
 {{< mermaid >}}
 flowchart LR
-  B(("Begin"))
-  I[/"Input"/]
-  P[/"Process"/]
-  O[/"Output"/]
+  B(("Perencanaan"))
+  I[/"Desain"/]
+  P[/"Pengembangan"/]
+  O[/"Pengujian"/]
   E(("End"))
   B --> I
   I --> P
@@ -65,6 +68,7 @@ flowchart LR
 </svg>
 {{< /html >}}
 
+<!-- 
 ## table
 no| Tanggal | Kegiatan | Info
 :-: | :- | -: | :-:
@@ -73,6 +77,7 @@ no| Tanggal | Kegiatan | Info
 4 | 16 Aug | Praktikum| [instagram](https://www.instagram.com)
 4 | 31 Aug | UAS | -
 4 | 2 Sep | REMEDIAL | **nothing** 
+ -->
 
 
 {{< toc >}}
