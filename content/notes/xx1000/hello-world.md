@@ -1,5 +1,5 @@
 ---
-title: "Hello NIGGA "
+title: "Hello world "
 date: 2023-09-18T07:44:00+07:00
 authors: ['Reinaldo Ulian']
 tags: ['xx1000']
@@ -44,12 +44,11 @@ flowchart LR
 + item
     - dua
     - tiga
-    - empat
-    
 
 + item lain
 + item lain lagi
-
+<!--  
+-->
 ## equation
 
 $$
