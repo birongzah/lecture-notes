@@ -9,63 +9,19 @@ url: "0048"
 ---
 # first section
 Content of first section.
-## Complex Flowchart
+## Diagram
 
 {{< mermaid >}}
-graph TD;
-  subgraph cluster_start
-    A1(("Start"))
-    A2[Initialize]
-    A3[Validate Input]
-    A4[Data Processing]
-  end
-
-  subgraph cluster_process
-    B1(("Process"))
-    B2[Step 1]
-    B3[Step 2]
-    B4[Step 3]
-    B5[Step 4]
-  end
-
-  subgraph cluster_condition
-    C1(("Conditional"))
-    C2[Condition 1]
-    C3[Condition 2]
-    C4[Condition 3]
-  end
-
-  subgraph cluster_output
-    D1(("Output"))
-    D2[Generate Output]
-    D3[Display Output]
-  end
-
-  subgraph cluster_end
-    E1(("End"))
-    E2[Finalize]
-  end
-
-  A1 --> A2
-  A2 --> A3
-  A3 -->|Valid| B1
-  A3 -->|Invalid| D1
-
-  B1 --> B2
-  B2 --> C1
-  B3 --> C2
-  B4 --> C3
-  B5 --> C4
-
-  C1 --> D2
-  C2 --> D2
-  C3 --> D3
-  C4 --> D3
-
-  D2 -->|Continue| A2
-  D2 -->|Finish| E2
-
-  D3 -->|Finish| E2
+flowchart LR
+  B(("Begin"))
+  I[/"Input"/]
+  P[/"Process"/]
+  O[/"Output"/]
+  E(("End"))
+  B --> I
+  I --> P
+  P --> O
+  O --> E
 {{< /mermaid >}}
 
 ## youtube
