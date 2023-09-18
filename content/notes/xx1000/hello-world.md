@@ -9,6 +9,21 @@ url: "0048"
 ---
 # first section
 Content of first section.
+## diagram
+{{<Mermaid>}}
+flowchart LR
+B --> I --> P --> O --> E
+B(("Begin))
+I[/"Input"/]
+P[/"Process"/]
+O[/"Output"/]
+E[/"End"/]
+{{<Mermaid>}}
+## youtube
+{{< youtube MCVkMmYL-aY>}}
+## image 
+! []
+(https://www.google.com/url?sa=i&url=https%3A%2F%2Fjombangupdate.pikiran-rakyat.com%2Folahraga%2Fpr-626284177%2Fprofil-biodata-shintia-alliva-mauludina-atlet-voli-muda-jakarta-bin-di-proliga-2023-main-di-sea-games-2023&psig=AOvVaw3zXWyhbNa-4y8VAq3xKPWx&ust=1695100501862000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIih9NCzs4EDFQAAAAAdAAAAABAH)
 ## table
 no| Tanggal | Kegiatan | Info
 :-: | :- | -: | :-:
