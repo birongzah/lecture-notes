@@ -165,7 +165,7 @@ flowchart LR
   <rect x="20" y="20" width="200" height="100" fill="url(#grad1)" stroke="green" stroke-width="3" />
   
   <!-- Text element -->
-  <text x="30" y="160" font-family="Arial" font-size="24" fill="black">SELAMAT BERLATIH SALAM OLAHRAGA</text>
+  <text x="30" y="160" font-family="Arial" font-size="24" fill="black">SALAM OLAHRAGA</text>
   
   <!-- Circle with animation -->
   <circle cx="250" cy="150" r="20" fill="orange">
