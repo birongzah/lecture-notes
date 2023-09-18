@@ -44,6 +44,8 @@ flowchart LR
 + item
     - dua
     - tiga
+    - empat
+    
 
 + item lain
 + item lain lagi
