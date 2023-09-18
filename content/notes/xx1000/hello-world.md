@@ -12,6 +12,32 @@ Selamat datang dalam panduan lengkap pembuatan website! Apakah Anda ingin membua
 
 Pembuatan website adalah proses yang kreatif dan memuaskan yang memungkinkan Anda untuk mengekspresikan diri Anda secara online. Dengan kemajuan teknologi, sekarang lebih mudah daripada sebelumnya untuk memulai.
 
+## ChartJS
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei'],
+      datasets: [{
+        label: 'Penjualan',
+        data: [12, 19, 3, 5, 2],
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+
 ## Diagram
 
 {{< mermaid >}}
