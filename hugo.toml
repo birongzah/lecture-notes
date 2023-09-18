@@ -1,4 +1,4 @@
-baseURL = 'https://dudung.github.io/lecture-notes'
+baseURL = 'https://birongzah.github.io/lecture-notes'
 languageCode = 'en-us'
 title = 'lecture-notes'
 theme = ['hugo-chart', 'hugo-coder']
@@ -19,7 +19,7 @@ description = "Reinaldo Ulian's personal website"
 keywords = "blog,developer,personal"
 info = ["Physicist", "Programmer","Weightlifter","Most Handsome man on earth]
 
-avatarURL = "img/avatar1.svg"
+avatarURL = "img/avatar.svg"
 
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
