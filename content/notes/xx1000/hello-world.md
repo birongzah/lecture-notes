@@ -10,7 +10,7 @@ url: "0048"
 # first section
 Content of first section.
 ## diagram
-{{<Mermaid>}}
+{{< mermaid >}}
 flowchart LR
 B --> I --> P --> O --> E
 B(("Begin))
@@ -18,7 +18,7 @@ I[/"Input"/]
 P[/"Process"/]
 O[/"Output"/]
 E[/"End"/]
-{{<Mermaid>}}
+{{< /mermaid >}}
 ## youtube
 {{< youtube MCVkMmYL-aY>}}
 ## image 
