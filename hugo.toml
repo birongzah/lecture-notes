@@ -13,7 +13,7 @@ enableEmoji = true
 #disqusShortname = "dudung-github-io-blog"
 
 [params]
-author = "Reinaldo Ulian"
+author = "Reinaldo Ulian "
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Reinaldo Ulian's personal website"
 keywords = "blog,developer,personal"
